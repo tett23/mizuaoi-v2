@@ -36,12 +36,21 @@
   revision = "e9657d882bb81064595ca3b56cbe2546bbabf7b1"
   version = "v1.4.0"
 
+[[projects]]
+  digest = "1:884d5ef3bdcca4de7af3f3adc0be5f0d4670254abc3bbeeffdcb093c7291aa79"
+  name = "gopkg.in/gormigrate.v1"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "8b8ab438a011afdf804348ee25378972cf459bd6"
+  version = "v1.3.1"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
     "github.com/jinzhu/gorm",
     "github.com/jinzhu/gorm/dialects/mysql",
+    "gopkg.in/gormigrate.v1",
   ]
   solver-name = "gps-cdcl"
   solver-version = 1
